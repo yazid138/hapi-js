@@ -1,0 +1,11 @@
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+    "title": "ada",
+    "tags": ["sa", "a"],
+    "body": "asdfa"
+}
+
+###
+GET http://localhost:5000/notes
